@@ -6,17 +6,60 @@ ul {
 }
 
 li {
-    float: right;
+    
 }
 
 li a {
+    float: right;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 8px;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 13px
+    font-size: 13px;
 }
+
+#logo {
+    width: 272px;
+    height: 92px;
+    padding-top: 109px;
+    display: block;
+}
+
+main{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div button{
+    -webkit-appearance: none;
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input{
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 30px;
+    font: 16px arial,sans-serif;
+}
+
+#search-bar{ 
+    -webkit-appearance: none;
+    width: 463px;
+    height 38px;
+    padding: 6px 9px 16px;
+}
+
 
 /* leaving plenty bg code here:   
 body{
